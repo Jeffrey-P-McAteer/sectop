@@ -7,6 +7,7 @@
 #
 #   "hypernetx", "fastjsonschema",
 #   "matplotlib", "PyQt5",
+#
 # ]
 # ///
 
@@ -30,6 +31,10 @@ def lcache(key, expensive_call, expire=CACHE_EXPIRE_S):
 import hypernetx
 import matplotlib
 import matplotlib.pyplot
+
+# TODO write our own lookup using
+#   https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.csv
+#print(f'SSH services default to port ', whatportis.db.lookup_service('ssh'))
 
 # Hello world from https://colab.research.google.com/github/pnnl/HyperNetX/blob/master/tutorials/basic/Basic%202%20-%20Visualization%20Methods.ipynb#scrollTo=eee46b55-04fa-4aee-961c-fbdaa14b3322
 
