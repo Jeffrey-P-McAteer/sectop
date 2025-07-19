@@ -11,6 +11,9 @@ At the moment [hypergraphs](https://github.com/pnnl/HyperNetX) are investigated 
 # Research
 
  - https://www.sciencedirect.com/science/article/abs/pii/S0167404824004991
+ - https://ieeexplore.ieee.org/document/7007750
+
+
 
 
 
